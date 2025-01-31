@@ -8,5 +8,7 @@ return {
   { import = "astrocommunity.pack.lua" },
   -- Play nicely with the vscode-neovim extension in VS Code
   { import = "astrocommunity.recipes.vscode" },
+  -- Copilot
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
   -- import/override with your plugins folder
 }
